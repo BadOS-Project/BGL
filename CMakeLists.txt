@@ -3,4 +3,4 @@ project(BadGraphics)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_library(BGL SHARED libs/base/shape.cc)
+add_library(BGL SHARED libs/base/graphics.cc libs/base/vector.cc libs/base/render.cc)
